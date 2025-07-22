@@ -20,14 +20,14 @@ const Main = () => {
 		<div className="main">
 			<div className="nav">
 				<p>Gemini</p>
-				<img src={assets.user} alt="" />
+				{/* <img src={assets.user} alt="" /> */}
 			</div>
 			<div className="main-container">
 				{!showResults ? (
 					<>
 						<div className="greet">
 							<p>
-								<span>Hello , Dev </span>
+								<span>Hello , Abhi </span>
 							</p>
 							<p>How Can i Help You Today?</p>
 						</div>
@@ -77,7 +77,7 @@ const Main = () => {
 				) : (
 					<div className="result">
 						<div className="result-title">
-							<img src={assets.user} alt="" />
+							{/* <img src={assets.user} alt="" /> */}
 							<p>{recentPrompt}</p>
 						</div>
 						<div className="result-data">
